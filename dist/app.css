@@ -85,5 +85,9 @@ body {
 .timer__button:focus,
 .timer__button:active {
   background-color: rgba(0, 0, 0, .2);
-  outline: 0;
+  outline: none;
+}
+
+.timer__button::-moz-focus-inner {
+  border: none;
 }
