@@ -1,0 +1,13 @@
+*, *::before, *:after { box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  background-color: rebeccapurple;
+  font-style: 10px;
+}
+
+body {
+  font-family: 'Inconsolata', monospace;
+  margin: 0;
+  text-align: center;
+}
